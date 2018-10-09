@@ -78,6 +78,10 @@ label {
   transform: translateY(1px);
 }
 
+.button:disabled {
+    cursor: not-allowed;
+}
+
 label > input {
     line-height: 30px;
 }

@@ -7,7 +7,8 @@ if(file_exists($configs)) {
   $title = "KK's T||F DB";
   
   try {
-    $pdo = new PDO("mysql:host={$configs['host']};dbname={$configs['dbname']};charset=utf8", $configs['username'], $configs['pwd']);
+    $pdo = new PDO("mysql:host={$configs['host']};dbname={$configs['dbname']};charset=utf8",
+                  $configs['username'], $configs['pwd']);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $sql = 'SELECT `torf` FROM `torfs`';
     $result = $pdo->query($sql);

@@ -46,7 +46,7 @@
         <input type="text" name="firstname" id="firstname">
         <label for="lastname">Last name:</label>
         <input type="text" name="lastname" id="lastname">
-        <button class="button" type="submit" value="Submit">tORf it!</button>
+        <button id="torfit" class="button" type="submit" value="Submit">tORf it!</button>
       </form>
     </p>
 
