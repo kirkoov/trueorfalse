@@ -35,7 +35,7 @@
     </div>
     <div id="info"><span class="subscript">dev</span>INFO<span class="subscript">toggle</span></div>
     <div id="intro">This small app demoes:<ul>
-      <li>MVC logic in a matroska fashion to both separate inner workings vs views and avoid code repetition</li>
+      <li>MVC logic in a <a href="https://en.wikipedia.org/wiki/Matryoshka_doll">matryoshka doll</a> fashion to both separate inner workings vs views and avoid code repetition</li>
       <li>Interaction with a MySQL database via PDOs (PHP Data Objects)</li>
       <li>...</li></ul>
     </div>
