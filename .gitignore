@@ -54,3 +54,5 @@ packages/*
 
 # My Project
 config.php
+.gitignore
+README.md
