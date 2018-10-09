@@ -1,0 +1,16 @@
+h1 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: smaller;
+}
+
+/*#intro, h3 {
+	width: 100%;
+}*/
+
+form {
+    width: 98%;
+}
+

@@ -1,0 +1,128 @@
+/*@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+*/
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+/*@import url('https://fonts.googleapis.com/css?family=Poiret+One');*/
+
+body {
+    padding: 10px;
+    color: black;
+}
+
+h3, label, #intro, .subscript, footer {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #839192;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+form {
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 10px 7px 10px 4px;
+}
+
+form > input {
+    margin-left:4px;
+    height: 35px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    /*color: white;*/
+    /*background: #cccccc;*/
+}
+
+/*form > input:hover {
+    background: whitesmoke;
+    color: #cccccc;
+}*/
+
+label {
+    font-size: larger;
+    display: block;
+    margin: 5px;
+    color: grey;
+}
+
+#welcome {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    outline: none;
+    border: none;
+    box-shadow: 0 3px #999;
+    border-radius: 3px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.7em;
+    vertical-align: middle;
+}
+
+.button:hover {
+    background-color: #cccccc;
+    color: white;
+    cursor: pointer;
+}
+
+.button:active {
+  background-color: #cccccc;
+  box-shadow: 0 2px #666;
+  transform: translateY(1px);
+}
+
+label > input {
+    line-height: 30px;
+}
+
+label > * {
+    display: block;
+    width: 99.3%;
+}
+
+
+#info {
+    cursor: pointer;
+    float: right;
+}
+
+#intro {
+    display: none;
+}
+
+.subscript {
+    font-size: small;
+    font-weight: bold;
+    vertical-align: bottom;
+} 
+
+.no-js { 
+/* This CSS code will only show up if JS is disabled. */ 
+    background-color: lightgray;
+}
+
+footer {
+    float: right;
+}
+
+#noscript-warning {
+    font-family: sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+    text-align: center;
+    /*font-weight: bold;
+    font-size: 120%;*/
+    color: #FFF;
+    background-color: #AE0000;
+    padding: 5px 0;
+}
