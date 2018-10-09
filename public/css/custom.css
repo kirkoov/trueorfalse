@@ -32,17 +32,11 @@ form {
 
 form > input {
     margin-left:4px;
+    padding-left:5px; 
     height: 35px;
     border: 1px solid silver;
     border-radius: 3px;
-    /*color: white;*/
-    /*background: #cccccc;*/
 }
-
-/*form > input:hover {
-    background: whitesmoke;
-    color: #cccccc;
-}*/
 
 label {
     font-size: larger;
@@ -53,6 +47,10 @@ label {
 
 #welcome {
     text-align: center;
+}
+
+#intro {
+    color: black;
 }
 
 .button {

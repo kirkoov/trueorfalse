@@ -35,8 +35,9 @@
     </div>
     <div id="info"><span class="subscript">dev</span>INFO<span class="subscript">toggle</span></div>
     <div id="intro">This small app demoes:<ul>
-      <li>Interaction with a MySQL database via PHP's PDOs</li>
-      <li>this</li></ul>
+      <li>MVC logic in a matroska fashion to both separate inner workings vs views and avoid code repetition</li>
+      <li>Interaction with a MySQL database via PDOs (PHP Data Objects)</li>
+      <li>...</li></ul>
     </div>
 
 
