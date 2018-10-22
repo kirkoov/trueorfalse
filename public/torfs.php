@@ -4,7 +4,6 @@ $configs = __DIR__ . '/../config.php';
 
 if(file_exists($configs)) {
   $configs = include($configs);
-  $title = "KK's T||F DB";
   
   try {
     $pdo = new PDO("mysql:host={$configs['host']};dbname={$configs['dbname']};charset=utf8",
@@ -16,6 +15,10 @@ if(file_exists($configs)) {
     while($row = $result->fetch()) {
       $torfs[] = $row['torf'];
     }
+
+    $title = "TorFs";
+    ob_start();
+    include  __DIR__ . '/../templates/welcome.php';
 
     $output = '';
 
@@ -35,7 +38,7 @@ if(file_exists($configs)) {
       .$e->getLine();
   }
 
-  include  __DIR__ . '/../templates/layout.php';
+  
 
   $pdo = null; // disconnect from the database server
 } else 

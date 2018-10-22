@@ -31,7 +31,7 @@
 
     <div id="welcome">
       <h1>Welcome to KK's TorF DataBase!</h1>
-      <h3>You've found out something you didn't know was true or false? You're open to share it? Go on and add your own 'I-didn't-know-that!' <i>torfs</i> (short for 'true or false statements') via the form below. They'll get inserted in the database under your email, which can be used for further reference or torf removal. Please pay special attention to your sources and your torf users would be very thankful if they wanted to check something up. Start typing in the fields and your data may show up in the dropdowns. The available torfs follow ordered by their themes.</h3>
+      <h3>You've found out something you didn't know was true or false? You're open to share it? Go on and add your own 'I-didn't-know-that!' <i>torfs</i> (short for 'true or false statements')! They'll get inserted in the database under your email, which can be used for further reference or torf removal. Please pay special attention to your sources and your torf users would be very thankful if they wanted to check something up. Start typing in the fields and your data may show up in the dropdowns. The available torfs follow ordered by their themes.</h3>
     </div>
     <div id="info"><span class="subscript">dev</span>INFO<span class="subscript">toggle</span></div>
     <div id="intro">This small app demoes:<ul>
