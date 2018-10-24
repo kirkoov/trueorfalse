@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title><?=$title?></title>
-    <meta name="description" content="KK's T||F DB layout file">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="KK's T||F layout file">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/custom.css">
@@ -25,7 +26,7 @@
     <header class="main_h">
       <!-- <h1>Logo</h1> -->
       <div class="row">
-        <a class="logo" href="#">Logo</a>
+        <a class="logo" href="#">t||f</a>
         <div class="mobile-toggle">
           <span></span>
           <span></span>
@@ -33,10 +34,11 @@
         </div>
         <nav>
           <ul>
-            <li><a href=".sec01">Section 01</a></li>
-            <li><a href=".sec02">Section 02</a></li>
-            <li><a href=".sec03">Section 03</a></li>
-            <li><a href=".sec04">Section 04</a></li>
+            <li><a href=".sec02">themed torfs</a></li>
+            <li><a href=".sec03">add a torf</a></li>
+            <li><a href=".sec04">about</a></li>
+            <li><a href=".sec05">@</a></li>
+
           </ul>
         </nav>
       </div> <!-- / row -->
@@ -47,20 +49,20 @@
     </div>
 
     <div class="row content">
-      <h1 class="sec01">Section 01</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, recusandae, at, labore velit eligendi amet nobis repellat natus sequi sint consectetur excepturi doloribus vero provident consequuntur accusamus quisquam nesciunt cupiditate soluta alias illo et deleniti voluptates facilis repudiandae similique dolore quaerat architecto perspiciatis officiis dolor ullam expedita suscipit neque minima rem praesentium inventore ab officia quos dignissimos esse quam placeat iste porro eius! Minus, aspernatur nesciunt consectetur. Sit, eius, itaque, porro, beatae impedit officia tenetur reiciendis autem vitae a quae ipsam repudiandae odio dolorum quaerat asperiores possimus corporis optio animi quisquam laboriosam nihil quam voluptatum quidem veritatis iste culpa iure modi perspiciatis recusandae ipsa libero officiis aliquam doloremque similique id quasi atque distinctio enim sapiente ratione in quia eum perferendis earum blanditiis. Nobis, architecto, veniam molestias minus iste necessitatibus est ab in earum ratione eveniet soluta molestiae sed illo nostrum nemo debitis. Minus, quod totam aliquam ea asperiores fugit quaerat excepturi dolores ratione numquam consequatur id unde alias provident vero incidunt exercitationem similique consequuntur hic possimus? Fuga, eveniet quaerat inventore corporis laborum eligendi enim soluta obcaecati aliquid veritatis provident amet laudantium est quisquam dolore exercitationem modi? Distinctio, pariatur, ab velit praesentium vitae quidem consequatur deleniti recusandae odit officiis. Quidem, cupiditate.</p>
-      <h1 class="sec02">Section 02</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, recusandae, at, labore velit eligendi amet nobis repellat natus sequi sint consectetur excepturi doloribus vero provident consequuntur accusamus quisquam nesciunt cupiditate soluta alias illo et deleniti voluptates facilis repudiandae similique dolore quaerat architecto perspiciatis officiis dolor ullam expedita suscipit neque minima rem praesentium inventore ab officia quos dignissimos esse quam placeat iste porro eius! Minus, aspernatur nesciunt consectetur. Sit, eius, itaque, porro, beatae impedit officia tenetur reiciendis autem vitae a quae ipsam repudiandae odio dolorum quaerat asperiores possimus corporis optio animi quisquam laboriosam nihil quam voluptatum quidem veritatis iste culpa iure modi perspiciatis recusandae ipsa libero officiis aliquam doloremque similique id quasi atque distinctio enim sapiente ratione in quia eum perferendis earum blanditiis. Nobis, architecto, veniam molestias minus iste necessitatibus est ab in earum ratione eveniet soluta molestiae sed illo nostrum nemo debitis. Minus, quod totam aliquam ea asperiores fugit quaerat excepturi dolores ratione numquam consequatur id unde alias provident vero incidunt exercitationem similique consequuntur hic possimus? Fuga, eveniet quaerat inventore corporis laborum eligendi enim soluta obcaecati aliquid veritatis provident amet laudantium est quisquam dolore exercitationem modi? Distinctio, pariatur, ab velit praesentium vitae quidem consequatur deleniti recusandae odit officiis. Quidem, cupiditate.</p>
-      <h1 class="sec03">Section 03</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, recusandae, at, labore velit eligendi amet nobis repellat natus sequi sint consectetur excepturi doloribus vero provident consequuntur accusamus quisquam nesciunt cupiditate soluta alias illo et deleniti voluptates facilis repudiandae similique dolore quaerat architecto perspiciatis officiis dolor ullam expedita suscipit neque minima rem praesentium inventore ab officia quos dignissimos esse quam placeat iste porro eius! Minus, aspernatur nesciunt consectetur. Sit, eius, itaque, porro, beatae impedit officia tenetur reiciendis autem vitae a quae ipsam repudiandae odio dolorum quaerat asperiores possimus corporis optio animi quisquam laboriosam nihil quam voluptatum quidem veritatis iste culpa iure modi perspiciatis recusandae ipsa libero officiis aliquam doloremque similique id quasi atque distinctio enim sapiente ratione in quia eum perferendis earum blanditiis. Nobis, architecto, veniam molestias minus iste necessitatibus est ab in earum ratione eveniet soluta molestiae sed illo nostrum nemo debitis. Minus, quod totam aliquam ea asperiores fugit quaerat excepturi dolores ratione numquam consequatur id unde alias provident vero incidunt exercitationem similique consequuntur hic possimus? Fuga, eveniet quaerat inventore corporis laborum eligendi enim soluta obcaecati aliquid veritatis provident amet laudantium est quisquam dolore exercitationem modi? Distinctio, pariatur, ab velit praesentium vitae quidem consequatur deleniti recusandae odit officiis. Quidem, cupiditate.</p>
-      <h1 class="sec04">Section 04</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, recusandae, at, labore velit eligendi amet nobis repellat natus sequi sint consectetur excepturi doloribus vero provident consequuntur accusamus quisquam nesciunt cupiditate soluta alias illo et deleniti voluptates facilis repudiandae similique dolore quaerat architecto perspiciatis officiis dolor ullam expedita suscipit neque minima rem praesentium inventore ab officia quos dignissimos esse quam placeat iste porro eius! Minus, aspernatur nesciunt consectetur. Sit, eius, itaque, porro, beatae impedit officia tenetur reiciendis autem vitae a quae ipsam repudiandae odio dolorum quaerat asperiores possimus corporis optio animi quisquam laboriosam nihil quam voluptatum quidem veritatis iste culpa iure modi perspiciatis recusandae ipsa libero officiis aliquam doloremque similique id quasi atque distinctio enim sapiente ratione in quia eum perferendis earum blanditiis. Nobis, architecto, veniam molestias minus iste necessitatibus est ab in earum ratione eveniet soluta molestiae sed illo nostrum nemo debitis. Minus, quod totam aliquam ea asperiores fugit quaerat excepturi dolores ratione numquam consequatur id unde alias provident vero incidunt exercitationem similique consequuntur hic possimus? Fuga, eveniet quaerat inventore corporis laborum eligendi enim soluta obcaecati aliquid veritatis provident amet laudantium est quisquam dolore exercitationem modi? Distinctio, pariatur, ab velit praesentium vitae quidem consequatur deleniti recusandae odit officiis. Quidem, cupiditate.</p>
+      <!-- <h1 class="sec01">?</h1>
+      <p></p> -->
+      <h1 class="sec02">themed torfs</h1>
+      <p>These are arguably better, since they enjoy common topics to choose from. First, opt for one and you are good to go in the same fashion as the random quiz above. Topic buttons follow, click whichever feels interesting at the moment.</p>
+      <h1 class="sec03">add a torf</h1>
+      <p>You have found out something you did not know was true or false? You are open to share it? Go on and add your own 'I-didn't-know-that!' torfs! Once you are through with a nightmare of a filtering web-form below, your torf will get inserted in our torf database under your email. The latter is used for further reference or removal of your torfs you no longer feel anxious about. Please pay special attention to your sources and your torf users are sure to be very thankful if they would want to check something up later on. Start typing in the form fields and your data may show up in the dropdowns.</p>
+      <h1 class="sec04">about</h1>
+      <p>It all starts with a play. You are given a random true and false (<i>torf</i>) quiz of the day. All you have to do is read a torf statement in the centre and then choose whether it is true or false by pressing the corresponding T or F buttons on the sides. Its sources are somewhere easy to find, progress is arguably very necessary to display, and timing is of no importance (at least so far). As to the number of torfs, well it will be up to the AI behind the website)). Main thing is enjoy it or comment it, or try both.</p>
+      <p>This project was originally thought of as one embracing many a language, then it dropped down to only English, yet quiz enthusiasts are welcome to add more torfs translated from other languages. The main idea behind this project is encourage reading of more books and sharing knowledge thus gained, via torf quizzes. Comments are also very welcome, since they may really help in defining further course of action.</p>
+        <h1 class="sec05">@</h1>
+      <p>When not struck-through, this indicates that your email is happily familiar to the website and the PHP session is aware of it. With a strike-through, it means the opposite.</p>
     </div>
 
     <div class="topnav" id="navbar">
-      <a href="#home">Home</a>
-      <a href="#themedTorfs">Themed Torfs</a>
-      <a href="#addAtorf">Add a torf</a>
       <a href="#about">About</a>
       <a href="#email" id="signin-email" title="Your @ to sign in">@</a>
     </div>
@@ -68,7 +70,7 @@
     
 
     <div id="welcome">
-      <h3>You've found out something you didn't know was true or false? You're open to share it? Go on and add your own 'I-didn't-know-that!' <i>torfs</i> (short for 'true or false statements')! They'll get inserted in the database under your email, which can be used for further reference or torf removal. Please pay special attention to your sources and your torf users would be very thankful if they wanted to check something up. Start typing in the fields and your data may show up in the dropdowns. The available torfs follow ordered by their themes.</h3>
+      <h3></h3>
     </div>
 
     <div id="info"><span class="subscript">dev</span>INFO<span class="subscript">toggle</span></div>
@@ -100,7 +102,7 @@
       <noscript>
         <div id="noscript-warning">Things work and look better with JavaScript enabled.</div>
       </noscript>
-      <a href="mailto:k.koovshinov@gmail.com?subject=Comments%20on%20TrueAndFalse%20website%20&amp;body=Hello,%20%0D%0DBR"><i class="fa fa-envelope"></i></a> &copy; <?="KK's T||F DB, " . date("Y")?>
+      <a href="mailto:k.koovshinov@gmail.com"><i class="fa fa-envelope"></i></a> &copy; <?="KK's T||F DB, " . date("Y")?>
     </footer>
   </body>
 </html>

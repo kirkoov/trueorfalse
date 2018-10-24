@@ -4,7 +4,7 @@ $configs = __DIR__ . '/../config.php';
 
 if(file_exists($configs)) {
   $configs = include($configs);
-  $title = "KK's T||F DB";
+  $title = "KK's T||F";
   
   try {
     $pdo = new PDO("mysql:host={$configs['host']};dbname={$configs['dbname']};charset=utf8",

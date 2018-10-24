@@ -1,13 +1,13 @@
 // https://stackoverflow.com/questions/4528085/toggle-show-hide-div-with-button#4528100
 
-const toggle  = document.getElementById("info");
-const content = document.getElementById("intro");
-const navbar = document.getElementById("navbar");
-let sticky = navbar.offsetTop;
+// const toggle  = document.getElementById("info");
+// const content = document.getElementById("intro");
+// const navbar = document.getElementById("navbar");
+// let sticky = navbar.offsetTop;
 
-toggle.addEventListener("click", function() {
-  content.style.display = (content.dataset.toggled ^= 1) ? "block" : "none";
-});
+// toggle.addEventListener("click", function() {
+//   content.style.display = (content.dataset.toggled ^= 1) ? "block" : "none";
+// });
 
 // Sticky Header
 $(window).scroll(function() {
@@ -34,7 +34,7 @@ $('.main_h li a').click(function() {
     }
 });
 
-// navigation scroll lijepo radi materem
+// navigation scroll
 $('nav a').click(function(event) {
     var id = $(this).attr("href");
     var offset = 70;
