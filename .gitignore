@@ -55,4 +55,4 @@ packages/*
 # TorF
 config.php
 README.md
-/templates/layout.php
+templates/layout.php
