@@ -223,7 +223,7 @@ p, ol {
 
 .no-js { 
 /* This CSS code will only show up if JS is disabled. */ 
-  background-color: lightgray;
+
 }
 #noscript-warning {
   font-family: sans-serif;
