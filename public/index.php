@@ -34,9 +34,7 @@ if(file_exists($configs)) {
       .$e->getFile() . ':' 
       .$e->getLine();
   }
-
-  include  __DIR__ . '/../templates/layout.php';
-
   $pdo = null; // disconnect from the database server
+  include  __DIR__ . '/../templates/layout.php';
 } else 
   die('Config file unavailable');
